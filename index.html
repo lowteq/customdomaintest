@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Test HTML Page</h1>
+    </header>
+    <main>
+        <p>Welcome to this test page. Click the button below to see an alert.</p>
+        <button onclick="showAlert()">Click Me!</button>
+    </main>
+    <script>
+        function showAlert() {
+            alert('Button clicked!');
+        }
+    </script>
+</body>
+
+</html>
